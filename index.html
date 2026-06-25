@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Elias Fink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <img src="images/profile.JPG" alt="Profile Photo">
-    <h1>Elias Fink</h1>
-    <p>Doctoral Researcher in Theoretical Physics at the University of Cambridge</p>
+    <img src="images/profile.jpg" alt="Profile photo">
 
-    <nav>
-        <a href="PDFs/CV.pdf">CV</a>
-        <a href="https://github.com/eliasfink122">GitHub</a>
-        <a href="https://linkedin.com/in/elias-fink">LinkedIn</a>
-    </nav>
+    <div class="header-text">
+        <h1>Elias Fink</h1>
+        <p class="subtitle">Doctoral Researcher in Theoretical Physics at the University of Cambridge</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="CV.pdf">CV</a>
+            <a href="https://github.com/EliasFink122">GitHub</a>
+            <a href="https://www.linkedin.com/in/elias-fink/">LinkedIn</a>
+        </nav>
+    </div>
 </header>
 
-<section>
+<section id="about">
     <h2>About Me</h2>
 
     <p>
@@ -31,11 +39,13 @@
     </p>
 </section>
 
-<section>
+<section id="projects">
     <h2>Projects</h2>
 
     <ul>
         <a href="PDFs/thesis.pdf">Third Year Project</a>
+        <br>
+        <a href="PDFs/gws.pdf">Stochastic Gravitational Waves</a>
         <br>
         <a href="PDFs/partiiiessay.pdf">Part III Essay</a>
     </ul>
