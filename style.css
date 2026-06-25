@@ -108,6 +108,7 @@ header img {
     background-position: center;
 
     padding: 80px 50px;
+    opacity: 50;
     border-radius: 15px;
     color: white;
 }
