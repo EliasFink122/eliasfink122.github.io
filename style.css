@@ -102,6 +102,16 @@ header img {
     margin-bottom: 18px;
 }
 
+.hero {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 80px 50px;
+    border-radius: 15px;
+    color: white;
+}
+
 /* ==========
    Navigation
 ========== */
