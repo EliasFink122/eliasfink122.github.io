@@ -146,6 +146,7 @@ li {
     background: white;
     padding: 22px;
     border-radius: 12px;
+    margin: 0px;
     box-shadow: 0 2px 10px rgba(0,0,0,.05);
     transition: transform .2s ease, box-shadow .2s ease;
 }
