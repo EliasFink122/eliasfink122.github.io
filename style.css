@@ -134,8 +134,12 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
-    list-style-image: url("images/trinityhall.svg") no-repeat top left;
+    list-style: none;
+    background-image: url("images/trinityhall.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+    padding-left: 25px;
 }
 
 /* ==========
