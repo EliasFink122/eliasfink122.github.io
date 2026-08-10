@@ -139,20 +139,20 @@ li {
     margin-bottom: 10px;
 }
 
-ul.custom-list {
+ul.list {
     padding-left: 0 !important;
     list-style: none !important; /* Force-removes default dots/bullets */
     list-style-image: none !important;
 }
 
-ul.custom-list li {
+ul.list li {
     position: relative;
     padding-left: 30px; /* Space for the custom SVG */
     margin-bottom: 15px;
     list-style-type: none !important; /* Secondary fail-safe for browser defaults */
 }
 
-ul.custom-list li::before {
+ul.list li::before {
     content: "";
     position: absolute;
     left: 0;
