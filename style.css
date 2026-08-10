@@ -139,16 +139,30 @@ li {
     margin-bottom: 10px;
 }
 
-li::before {
+ul.custom-list {
+    padding-left: 0 !important;
+    list-style: none !important; /* Force-removes default dots/bullets */
+    list-style-image: none !important;
+}
+
+ul.custom-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the custom SVG */
+    margin-bottom: 15px;
+    list-style-type: none !important; /* Secondary fail-safe for browser defaults */
+}
+
+ul.custom-list li::before {
     content: "";
     position: absolute;
     left: 0;
     top: 4px;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     background-image: url("images/trinityhall.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 /* ==========
