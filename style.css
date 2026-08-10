@@ -61,13 +61,13 @@ p {
 ========== */
 
 a {
-    color: #1d5fa7;
+    color: #666;
     text-decoration: none;
     transition: 0.2s;
 }
 
 a:hover {
-    color: #174a82;
+    color: black;
     text-decoration: underline;
 }
 
