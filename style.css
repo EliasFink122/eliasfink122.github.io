@@ -31,6 +31,7 @@ h1 {
     font-size: 2.8rem;
     font-weight: 600;
     color: white;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -106,7 +107,7 @@ header img {
     background-size: cover;
     background-position: center;
 
-    padding: 100px 50px;
+    padding: 80px 50px;
     border-radius: 15px;
     color: white;
 }
