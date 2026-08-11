@@ -151,7 +151,6 @@ ul.th-list li {
     padding-left: 30px;
     margin-bottom: 10px;
     list-style-type: none !important;
-    align-items: center;
 }
 
 ul.th-list li::before {
@@ -165,7 +164,7 @@ ul.th-list li::before {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 /* ==========
