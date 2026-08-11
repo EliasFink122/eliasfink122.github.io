@@ -157,7 +157,6 @@ ul.th-list li {
 ul.th-list li::before {
     content: "";
     display: inline-block;
-    position: absolute;
     left: 0;
     top: 4px;
     width: 20px;
@@ -165,7 +164,8 @@ ul.th-list li::before {
     background-image: url("images/blackhole.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    flex-shrink: 0;
+    position: relative;
+    top: 5px;
 }
 
 /* ==========
