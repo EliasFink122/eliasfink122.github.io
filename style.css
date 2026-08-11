@@ -142,22 +142,21 @@ li {
 
 ul.th-list {
     padding-left: 0 !important;
-    list-style: none !important; /* Force-removes default dots/bullets */
+    list-style: none !important;
     list-style-image: none !important;
 }
 
 ul.th-list li {
     position: relative;
-    padding-left: 30px; /* Space for the custom SVG */
-    margin-bottom: 15px;
-    list-style-type: none !important; /* Secondary fail-safe for browser defaults */
-    list-style-position: inside;
-    text-align: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style-type: none !important;
+    align-items: center;
 }
 
 ul.th-list li::before {
     content: "";
-    position: absolute;
+    display: inline-block;
     left: 0;
     top: 4px;
     width: 20px;
@@ -165,7 +164,7 @@ ul.th-list li::before {
     background-image: url("images/blackhole.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    display: inline-block;
+    flex-shrink: 0;
 }
 
 /* ==========
