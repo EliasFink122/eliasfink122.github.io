@@ -151,6 +151,8 @@ ul.th-list li {
     padding-left: 30px; /* Space for the custom SVG */
     margin-bottom: 15px;
     list-style-type: none !important; /* Secondary fail-safe for browser defaults */
+    list-style-position: inside;
+    text-align: center;
 }
 
 ul.th-list li::before {
@@ -164,8 +166,6 @@ ul.th-list li::before {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
-    list-style-position: inside;
-    text-align: center;
 }
 
 /* ==========
