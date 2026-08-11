@@ -149,22 +149,21 @@ ul.th-list {
 ul.th-list li {
     position: relative;
     padding-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     list-style-type: none !important;
 }
 
 ul.th-list li::before {
     content: "";
-    display: inline-block;
+    position: absolute;
     left: 0;
-    top: 4px;
+    top: 6px;
     width: 20px;
     height: 20px;
     background-image: url("images/blackhole.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative;
-    top: 10px;
+    display: inline-block;
 }
 
 /* ==========
