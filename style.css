@@ -164,6 +164,7 @@ ul.th-list li::before {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
+    text-align: center;
 }
 
 /* ==========
